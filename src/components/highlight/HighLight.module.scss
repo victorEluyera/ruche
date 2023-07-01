@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+
+.highlight_container {
+  width: 85%;
+  margin: auto;
+  padding: 55px;
+}
+.highlight_header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  .header_topic {
+    font-family: "Parisienne", cursive;
+    font-size: 48px;
+    color: #2a4468;
+    margin-bottom: 55px;
+  }
+  .view_all {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2a4468;
+    margin-bottom: 100px;
+    cursor: pointer;
+  }
+}
+
+.card_container {
+  width: 90%;
+  position: relative;
+  margin-bottom: 70px;
+  .mask {
+    background: none;
+  }
+  .like_button {
+    position: absolute;
+    top: 4.87%;
+
+    right: 7.64%;
+    font-size: 24px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    .product_name {
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 12px;
+    }
+    .product_price {
+      font-size: 14px;
+      color: #237216;
+      font-weight: 400;
+      margin-top: 12px;
+    }
+  }
+  .color {
+    height: 17.26px;
+    width: 17.26px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border: #237216 0.5px solid;
+  }
+}

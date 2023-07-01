@@ -1,0 +1,76 @@
+.container {
+  :global(
+      .ant-steps
+        .ant-steps-item-finish
+        > .ant-steps-item-container
+        > .ant-steps-item-content
+        > .ant-steps-item-title
+    ) {
+    color: white;
+  }
+  :global(
+      .ant-steps
+        .ant-steps-item-finish
+        > .ant-steps-item-container
+        > .ant-steps-item-content
+        > .ant-steps-item-title::after
+    ) {
+    background: white;
+  }
+  :global(
+      .ant-steps .ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon
+    ) {
+    color: white;
+  }
+  :global(.ant-steps .ant-steps-item-wait .ant-steps-item-icon) {
+    background: #2a4468;
+    border-color: white;
+  }
+  :global(
+      .ant-steps
+        .ant-steps-item-wait
+        > .ant-steps-item-container
+        > .ant-steps-item-content
+        > .ant-steps-item-title
+    ) {
+    color: #ffffff;
+    opacity: 0.6;
+  }
+  :global(
+      .ant-steps
+        .ant-steps-item-wait
+        > .ant-steps-item-container
+        > .ant-steps-item-content
+        > .ant-steps-item-title::after
+    ) {
+    background: #ffffff;
+    opacity: 1;
+  }
+  :global(
+      .ant-steps
+        .ant-steps-item-process
+        > .ant-steps-item-container
+        > .ant-steps-item-content
+        > .ant-steps-item-title::after
+    ) {
+    background: #ffffff;
+  }
+  :global(.ant-steps .ant-steps-item-process .ant-steps-item-icon) {
+    background: #ffffff;
+    border-color: #2a4468;
+  }
+  :global(
+      .ant-steps .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon
+    ) {
+    color: #2a4468;
+  }
+  :global(
+      .ant-steps
+        .ant-steps-item-process
+        > .ant-steps-item-container
+        > .ant-steps-item-content
+        > .ant-steps-item-title
+    ) {
+    color: #ffffff;
+  }
+}

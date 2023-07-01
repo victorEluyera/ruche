@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.container {
+  background: rgba(241, 241, 241, 1);
+  font-size: 24px;
+
+  :global(.ant-collapse-content) {
+    background: rgba(241, 241, 241, 1);
+  }
+  .details {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Montserrat;
+    color: #2a4468;
+  }
+  .price {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Montserrat;
+    color: #237216;
+  }
+}
+
+.card_title {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Montserrat;
+  color: #2a4468;
+}
+
+.card_size {
+  width: 27px;
+  height: 22px;
+  border: #2a4468 1px solid;
+  flex-shrink: 0;
+  color: #2a4468;
+  font-size: 15px;
+  font-family: Myriad Pro;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.card_color {
+  width: 27px;
+  height: 25px;
+}
+
+.card_quantity {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Montserrat;
+  color: rgba(42, 68, 104, 0.7);
+}
+
+.card_prize {
+  font-family: Montserrat;
+  color: #237216;
+  font-size: 20px;
+  font-weight: 700;
+}

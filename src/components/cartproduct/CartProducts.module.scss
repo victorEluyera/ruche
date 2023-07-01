@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.cart {
+  color: #2a4468;
+  font-weight: 500;
+  font-size: 40px;
+  font-family: montserrat;
+  .cart_figure {
+    font-size: 26px;
+    border: #2a4468 1px solid;
+    padding: 8px 15px;
+    font-family: "Courier New", Courier, monospace;
+  }
+}
+
+.shipping_details {
+  color: #2a4468;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  .underline {
+    height: 2px;
+    background: #2a4468;
+    width: 180px;
+  }
+}
+
+.product_name {
+  color: #2a4468;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: montserrat;
+}
+
+.product_price {
+  color: #237216;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: montserrat;
+}
+
+.product_size {
+  color: #2a4468;
+  font-weight: 600;
+  font-size: 22px;
+  border: #2a4468 solid 1px;
+  padding: 5px 10px;
+  font-family: montserrat;
+}
+
+.product_color {
+  width: 40px;
+  height: 40px;
+}

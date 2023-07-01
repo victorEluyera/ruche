@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.container {
+  background: rgba(241, 241, 241, 1);
+  font-size: 24px;
+
+  :global(.ant-collapse-content) {
+    background: rgba(241, 241, 241, 1);
+  }
+  .details {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Montserrat;
+    color: #2a4468;
+  }
+  .price {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Montserrat;
+    color: #237216;
+  }
+}

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.about_container {
+  background: #2a4468;
+  padding: 97px 0px;
+  .about_wrapper {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .carousel_container {
+      width: 40%;
+    }
+    .About_details {
+      width: 40%;
+      text-align: start;
+      .details_title {
+        font-size: 64px;
+        font-weight: 400;
+        color: #ffffff;
+        font-family: "Parisienne", cursive;
+      }
+      .details_texts {
+        display: flex;
+        flex-direction: column;
+
+        & > :nth-child(1) {
+          font-size: 20px;
+          font-weight: 500;
+          font-family: "Montserrat", cursive;
+          color: #ffffff;
+        }
+        & > :nth-child(2) {
+          font-size: 16px;
+          font-weight: 400;
+          font-family: "Montserrat", cursive;
+          color: #ffffff;
+          span {
+            color: #ffe3a9;
+            font-weight: 500;
+            text-decoration: underline;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

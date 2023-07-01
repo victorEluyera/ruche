@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+
+.topic {
+  font-size: 50px;
+  font-family: "Parisienne", cursive;
+  color: #2a4468;
+}
+
+.card_container {
+  width: 90%;
+  position: relative;
+  margin-bottom: 70px;
+
+  .like_button {
+    position: absolute;
+    top: 38px;
+    right: 0px;
+    font-size: 24px;
+  }
+  .view_button {
+    background: #2a4468;
+    color: #ffffff;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 155px;
+    height: 63px;
+    font-size: 24px;
+    left: 0px;
+    bottom: 4px;
+    text-align: center;
+  }
+}
+.cards {
+  margin: -50px auto 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  .product_name {
+    font-size: 24px;
+    font-family: "Montserrat", cursive;
+    color: #2a4468;
+    font-weight: 500;
+  }
+  .product_price {
+    font-size: 24px;
+    font-family: "Montserrat", cursive;
+    color: #237216;
+    font-weight: 700;
+  }
+}

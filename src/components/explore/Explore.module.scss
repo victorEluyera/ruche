@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+
+.explore_container {
+  background: rgba(42, 68, 104, 0.1);
+  padding: 115px 0px 108px;
+  .explore_wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    .explore_topics {
+      font-size: 48px;
+      font-weight: 400;
+      font-family: "Parisienne", cursive;
+      margin-bottom: 38px;
+    }
+    .explore_text {
+      font-size: 20px;
+      font-weight: 400;
+      font-family: "Montserrat";
+      margin-bottom: 73px;
+      & > :nth-child(1) {
+        text-decoration: underline;
+      }
+    }
+    .images {
+      display: flex;
+      .mask {
+        background: rgba(42, 68, 104, 0.6);
+      }
+    }
+  }
+}

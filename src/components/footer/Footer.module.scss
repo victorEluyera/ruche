@@ -1,0 +1,68 @@
+.footer_container {
+  background: rgba(42, 68, 104, 0.1);
+  .footer_copy {
+    background: #ffffff;
+    padding: 20px;
+    text-align: center;
+    .copy_text {
+      font-size: 20px;
+      color: #2a4468;
+    }
+  }
+  .footer_info {
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    // margin: auto;
+    width: 95%;
+  }
+}
+.box_container {
+  display: flex;
+  flex-direction: column;
+  margin: 66px 0;
+  text-align: center;
+  width: 70%;
+  .logo_img {
+    height: 135px;
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  .contact {
+    font-size: 16px;
+    color: #2a4468;
+    display: block;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+  }
+  .icon {
+    font-size: 24px;
+    color: #2a4468;
+    margin-right: 30px;
+    margin-top: 17px;
+  }
+  .text {
+    font-size: 16px;
+    color: #2a4468;
+    display: block;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 32px;
+    text-align: start;
+  }
+  .special_offer_description {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-bottom: 30px;
+    text-align: start;
+    color: rgba(42, 68, 104, 0.7);
+  }
+  .input {
+    border-bottom: #2a4468 1px solid;
+    border-radius: 0px;
+  }
+}

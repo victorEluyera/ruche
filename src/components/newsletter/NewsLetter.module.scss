@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+
+.newsletter_wrapper {
+  width: 50%;
+  margin: 87px auto;
+  display: flex;
+  flex-direction: column;
+  .topic {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: "Parisienne", cursive;
+    color: #2a4468;
+    text-align: center;
+  }
+  .description {
+    font-size: 20px;
+    font-weight: 400;
+    color: #2a4468;
+    width: 90%;
+    text-align: center;
+    margin: 15px auto 82px;
+  }
+  .newsletter_forms {
+    display: flex;
+    border-bottom: 1px solid #121212;
+    width: 50%;
+    margin: auto;
+  }
+}

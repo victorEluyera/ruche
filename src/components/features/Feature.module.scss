@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+
+.feature_container {
+  background: rgba(42, 68, 104, 0.1);
+  padding: 64px;
+  text-align: center;
+  .feature_header {
+    display: flex;
+    flex-direction: column;
+    .header_title {
+      font-size: 48px;
+      color: #2a4468;
+      font-family: "Parisienne", cursive;
+      margin-bottom: 28;
+    }
+    .header_description {
+      font-size: 20px;
+      font-family: "Montserrat", cursive;
+      font-weight: 400;
+    }
+  }
+}

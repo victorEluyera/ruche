@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+
+#first_hero {
+  background-image: url("../../asset/Rectangle\ 2.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+
+#second_hero {
+  background: url("../../asset/Rectangle\ 3.jpg");
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+#third_hero {
+  background: url("../../asset/Rectangle\ 4.jpg");
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 80vh;
+  background-blend-mode: overlay;
+}
+
+.hero_content_container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  .hero_btn {
+    background: #2a4468;
+    font-weight: 500;
+    border: none;
+    border-radius: 0px;
+    color: #ffffff;
+  }
+}
+
+.hero_content {
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-size: 96px;
+  opacity: 1;
+  color: #ffe3a9;
+}
